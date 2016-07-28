@@ -1,0 +1,25 @@
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\ExcelAddIn1.dll
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\ExcelAddIn1.pdb
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\ExcelAddIn1.dll.manifest
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\ExcelAddIn1.vsto
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Facebook.dll
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Microsoft.Office.Tools.Common.dll
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Microsoft.Office.Tools.dll
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Microsoft.Office.Tools.Excel.dll
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Facebook.xml
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.xml
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.xml
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Microsoft.Office.Tools.Common.xml
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Microsoft.Office.Tools.Excel.xml
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\obj\Debug\MME Super Excel Addin.csprojResolveAssemblyReference.cache
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\obj\Debug\ExcelAddIn1.PageNameDialog.resources
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\obj\Debug\ExcelAddIn1.Properties.Resources.resources
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\obj\Debug\MME Super Excel Addin.csproj.GenerateResource.Cache
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\obj\Debug\ExcelAddIn1.dll
+C:\Users\ksawery.jasienski\Documents\Visual Studio 2015\Projects\ExcelAddIn1\ExcelAddIn1\obj\Debug\ExcelAddIn1.pdb
