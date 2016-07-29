@@ -24,7 +24,7 @@ namespace ExcelAddIn1 {
             sheet = book.ActiveSheet;
 
             string json = "{ }";
-            FacebookClient client = new FacebookClient("EAACEdEose0cBABnlFDNM31MBkCZCZB0nnZC3ATSVBkVlihcmvdZCnQKr6DZB7QSpphUKoWiQ910JBB93S8GEDUzEbq1VM7qXZCEtRhLvZBJ7UxXBZANw2MgR1QqZCgcB2wyjEwiq0lDewEYWOKe93if0h4Sx1VEtSpKBadNO4OSFTwwZDZD");
+            FacebookClient client = new FacebookClient("EAACEdEose0cBAKXs12QMh54IdpETXfDTFeb8KYiGwbcq54uj4t9KUZBR78gFI0AUxNVkQZCB3jXVAB2pAZCR9fzSr0AOvviuZA3pKb15RkVDFYotZAgfGShoZAWqCsOi1uLF7P1Doovn0iLXLRTfnhTZAKmA69n5mvZCNL78A98KqwZDZD");
 
             string pageName = "accenture";
             int postsToLoad = 0;
@@ -57,6 +57,9 @@ namespace ExcelAddIn1 {
                 }
                 json = client.Get(pageName + "?fields=name,posts.limit(" + postsToLoad + "){id,message,likes.summary(true),comments.summary(true),shares, created_time}").ToString();
             }
+
+            if (json.Length < 5) Application.Quit();
+
             var obj = JObject.Parse(json);
 
             JArray posts = JArray.Parse(obj["posts"]["data"].ToString());
@@ -70,12 +73,12 @@ namespace ExcelAddIn1 {
                 var shares = post["shares"];
                 var comments = post["comments"];
 
-                sheet.Cells[7 + i, 2] = i + 1;
-                sheet.Cells[7 + i, 3] = post["created_time"].ToString().Substring(0, 11);
-                sheet.Cells[7 + i, 4] = post["message"];
-                sheet.Cells[7 + i, 5] = likes != null ? likes["summary"]["total_count"] : 0;
-                sheet.Cells[7 + i, 6] = comments != null ? comments["summary"]["total_count"] : 0;
-                sheet.Cells[7 + i, 7] = shares != null ? shares["count"] : 0;
+                sheet.Cells[8 + i, 2] = i + 1;
+                sheet.Cells[8 + i, 3] = post["created_time"].ToString().Substring(0, 11);
+                sheet.Cells[8 + i, 4] = post["message"];
+                sheet.Cells[8 + i, 5] = likes != null ? likes["summary"]["total_count"] : 0;
+                sheet.Cells[8 + i, 6] = comments != null ? comments["summary"]["total_count"] : 0;
+                sheet.Cells[8 + i, 7] = shares != null ? shares["count"] : 0;
             }
 
             Excel.Range chartRange;
@@ -85,7 +88,7 @@ namespace ExcelAddIn1 {
             Excel.Chart chartPage = myChart.Chart;
             chartPage.Legend.Position = Excel.XlLegendPosition.xlLegendPositionBottom;
 
-            chartRange = sheet.get_Range("e6", "g" + (postsToLoad + 5));
+            chartRange = sheet.get_Range("e7", "g" + (postsToLoad + 7));
             chartPage.SetSourceData(chartRange, System.Reflection.Missing.Value);
             chartPage.ChartType = Excel.XlChartType.xlColumnStacked;
 
